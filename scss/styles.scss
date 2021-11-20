@@ -1,0 +1,8 @@
+small {
+    display: none;
+}
+
+.input-form.error {
+  &--small  {
+    display: block;}
+}
