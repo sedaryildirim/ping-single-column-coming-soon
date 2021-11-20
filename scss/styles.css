@@ -2,7 +2,7 @@ small {
   display: none;
 }
 
-.input-form.error--small {
+.input-form.error .input-form--small {
   display: block;
 }
 /*# sourceMappingURL=styles.css.map */
