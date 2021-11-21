@@ -11,31 +11,33 @@
 
 <body>
   
-  <div class="container">
-    <header>
-      <h1 class="header--title">We are launching soon!</h1>
-      <p class="header--paragraph">Subscribe and get notified</p>
-    </header>
+  <img src="/images/logo.svg" alt="Pings logo" aria-hidden="true"> 
+
+  <header>
+    <h1 class="header--title">We are launching soon!</h1>
+    <p class="header--paragraph">Subscribe and get notified</p>
+  </header>
+  
+  <main>
     
-    <div class="logo-img"></div>
+    <form class="input-form" id="form">
+      <input id="email" placeholder="Your email address">
+      <small class="input-form--small">Please provide a valid email address</small>
+      <input type="submit" value="Notify Me">
+    </form>
     
-    <main>
-      
-      <form class="input-form" id="form">
-        <input id="email" placeholder="Your email address">
-        <small class="input-form--small">Please provide a valid email address</small>
-        <input type="submit" value="Notify Me">
-      </form>
-      
-      <div class="hero-img"></div>
-      
-    </main>
+    <img class="dashboard-img" src="/images/illustration-dashboard.png" alt="A image of pings dashboard ui">
     
-    <footer class="footer">
-      <p class="footer--paragraph">&copy; Copyright Ping. All rights reserved.</p>
-    </footer>
-    
-  </div>
+  </main>
+  
+  <footer class="footer">
+    <p class="footer--paragraph">&copy; Copyright Ping. All rights reserved.</p>
+    <div class="social">
+      <a href="http://" target="_blank" rel="noopener noreferrer"><img class="social__facebook" src="/icons/facebook-f-brands.svg" alt="" aria-hidden="true"></a>
+      <a href="http://" target="_blank" rel="noopener noreferrer"><img class="social__twitter" src="/icons/twitter-brands.svg" alt="" aria-hidden="true"></a>
+      <a href="http://" target="_blank" rel="noopener noreferrer"><img class="social__instagram" src="/icons/instagram-brands.svg" alt="" aria-hidden="true"></a>
+    </div>
+  </footer>
   
   <script src="./js/script.js"></script>
 </body>
