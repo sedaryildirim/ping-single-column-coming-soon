@@ -82,29 +82,38 @@ body {
   }
 }
 
-.footer {
-  display: flex;
-  width: 350px;
-  flex-direction: row;
-  flex-wrap: wrap;
-  justify-content: space-evenly;
-  align-items: center;
-  width: 300px;
-
-  &__facebook, &__twitter, &__instagram {
-    display: block;
-    height: 15px;
-    width: 15px;
-  }
-}
-
 .dashboard-img {
   display: block;
   width: auto;
   height: auto;
   max-width: 100%;
   max-height: 100%;
+  margin-bottom: 2em;
 }
+
+
+.footer {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: center;
+
+  &__facebook, &__twitter, &__instagram {
+    margin: 0.3em 0.3em 0.3em 0.3em;
+    height: 10px;
+    width: 10px;
+    padding: 0.5em;
+    border: 1px solid var(--cc-gray-);
+    border-radius: 50px;
+    }
+
+    &--paragraph {
+      padding: 0em 2em 0em 2em;
+      font-size: 0.5em;
+      margin-bottom: 1em;
+  }
+}
+
 
 // JS Form Validation
 small {
