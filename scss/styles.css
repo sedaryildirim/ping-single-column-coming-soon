@@ -57,25 +57,39 @@ body {
 }
 
 .input-form {
-  margin: 0.5em;
-  padding: 0.5em;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
 }
 
 .input-form input {
-  margin: 0.5em;
-  border-radius: 15px;
-  padding: 0.5em;
+  border-radius: 50px;
   border: 1px solid var(--cc-gray-);
-  width: 90%;
-  height: auto;
+  margin: 1em;
+  padding: 1em;
+}
+
+.input-form input.error {
+  border: 1px solid var(--cc-light-red-);
 }
 
 .input-form button {
-  border-radius: 15px;
-  padding: 0.5em;
+  border-radius: 50px;
   border: 1px solid var(--cc-gray-);
-  width: 100%;
-  height: auto;
+  margin: 1em;
+  padding: 1em;
+}
+
+.input-form--small {
+  font-size: 0.75rem;
+  text-align: center;
+  color: var(--cc-light-red-);
 }
 
 .footer {

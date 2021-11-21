@@ -7,7 +7,9 @@ form.addEventListener('submit', e => { // runs when submit is clicked/submitted 
 
     if (!validateEmail(emailVal)) { //if below function does not have below characters / valid email
         form.classList.add('error'); // then add class .error to .form class list
+        email.classList.add('error');
     } else {
+        email.classList.remove('error');
         form.classList.remove('error'); // if below function HAS valid email 
     }                                   // then remmove class .error from .form class list
 });

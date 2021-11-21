@@ -53,24 +53,32 @@ body {
 }
 
 .input-form {
-  margin: 0.5em;
-  padding: 0.5em;
-
+  display: flex;
+  flex-direction: column;
+  flex-wrap: wrap;
+ 
   input {
-    margin: 0.5em;
-    border-radius: 15px;
-    padding: 0.5em;
+    border-radius: 50px;
     border: 1px solid var(--cc-gray-);
-    width: 90%;
-    height: auto;
+    margin: 1em;
+    padding: 1em;
+  }
+
+  input.error {
+    border: 1px solid var(--cc-light-red-);
   }
 
   button {
-    border-radius: 15px;
-    padding: 0.5em;
+    border-radius: 50px;
     border: 1px solid var(--cc-gray-);
-    width: 100%;
-    height: auto;
+    margin: 1em;
+    padding: 1em;
+  }
+
+  &--small {
+    font-size: 0.75rem;
+    text-align: center;
+    color: var(--cc-light-red-);
   }
 }
 
