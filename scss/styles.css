@@ -116,13 +116,32 @@ body {
           justify-content: center;
 }
 
-.footer__facebook, .footer__twitter, .footer__instagram {
+.footer .fab {
+  display: -webkit-inline-box;
+  display: -ms-inline-flexbox;
+  display: inline-flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
   margin: 0.3em 0.3em 0.3em 0.3em;
-  height: 10px;
-  width: 10px;
+  height: 15px;
+  width: 15px;
   padding: 0.5em;
-  border: 0.5px solid var(--cc-gray-);
+  border: 0.5px solid var(--cc-pale-blue-);
   border-radius: 50px;
+  background-color: white;
+}
+
+.footer .fab:hover::before {
+  color: white;
+}
+
+.footer .fab:hover {
+  background-color: var(--cc-blue-);
+  border-color: var(--cc-blue-);
 }
 
 .footer--paragraph {
@@ -131,21 +150,15 @@ body {
   margin-bottom: 1em;
 }
 
-.footer__facebook:hover {
-  -webkit-filter: invert(0) sepia(0) saturate(1) hue-rotate(0deg) brightness(5);
-          filter: invert(0) sepia(0) saturate(1) hue-rotate(0deg) brightness(5);
-  background-color: var(--cc-blue-);
-}
-
-.footer small {
+small {
   display: none;
 }
 
-.footer .input-form.error .email-wrong {
+.input-form.error .email-wrong {
   display: block;
 }
 
-.footer .empty-field.error {
+.empty-field.error {
   display: block;
 }
 /*# sourceMappingURL=styles.css.map */

@@ -98,13 +98,26 @@ body {
   flex-wrap: wrap;
   justify-content: center;
   
-  &__facebook, &__twitter, &__instagram {
+  .fab {
+    display: inline-flex;
+    justify-content: center;
+    align-items: center;
     margin: 0.3em 0.3em 0.3em 0.3em;
-    height: 10px;
-    width: 10px;
+    height: 15px;
+    width: 15px;
     padding: 0.5em;
-    border: 0.5px solid var(--cc-gray-);
+    border: 0.5px solid var(--cc-pale-blue-);
     border-radius: 50px;
+    background-color: white;
+  }
+
+  .fab:hover::before {
+    color: white;
+  }
+
+  .fab:hover {
+    background-color: var(--cc-blue-);
+    border-color: var(--cc-blue-);
   }
   
   &--paragraph {
@@ -112,26 +125,21 @@ body {
     font-size: 0.5em;
     margin-bottom: 1em;
   }
-  
-  &__facebook:hover {
-    filter: invert(0) sepia(0) saturate(1) hue-rotate(0deg) brightness(5);
-    background-color: var(--cc-blue-);
-  }
-  
-  
-  // JS Form Validation
-  small {
-    display: none;
-  }
-  
-  .input-form.error {
-    .email-wrong  {
-      display: block;
-    }
-    
-  }
-  
-  .empty-field.error {
+}
+
+
+// JS Form Validation
+small {
+  display: none;
+}
+
+.input-form.error {
+  .email-wrong  {
     display: block;
   }
+  
+}
+
+.empty-field.error {
+  display: block;
 }
