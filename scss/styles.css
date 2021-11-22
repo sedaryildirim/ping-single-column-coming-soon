@@ -1,6 +1,6 @@
 @import url("https://fonts.googleapis.com/css2?family=Libre+Franklin:wght@300;600;700&display=swap");
 :root {
-  --cc-blue-:  hsl(223, 87%, 63%);
+  --cc-blue-: hsl(223, 87%, 63%);
   --cc-pale-blue-: hsl(223, 100%, 88%);
   --cc-light-red-: hsl(354, 100%, 66%);
   --cc-gray-: hsl(0, 0%, 59%);
@@ -121,7 +121,7 @@ body {
   height: 10px;
   width: 10px;
   padding: 0.5em;
-  border: 1px solid var(--cc-gray-);
+  border: 0.5px solid var(--cc-gray-);
   border-radius: 50px;
 }
 
@@ -129,6 +129,10 @@ body {
   padding: 0em 2em 0em 2em;
   font-size: 0.5em;
   margin-bottom: 1em;
+}
+
+.footer__facebook:hover, .footer__twitter:hover, .footer__instagram:hover {
+  background-color: var(--cc-blue-);
 }
 
 small {
