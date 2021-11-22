@@ -121,7 +121,12 @@ small {
 }
 
 .input-form.error {
-  .input-form--small  {
-    display: block;}
+  .email-wrong  {
+    display: block;
   }
-  
+
+  }
+
+  .empty-field.error {
+    display: block;
+  }

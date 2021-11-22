@@ -135,7 +135,11 @@ small {
   display: none;
 }
 
-.input-form.error .input-form--small {
+.input-form.error .email-wrong {
+  display: block;
+}
+
+.empty-field.error {
   display: block;
 }
 /*# sourceMappingURL=styles.css.map */
