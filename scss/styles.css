@@ -101,6 +101,10 @@ body {
   margin-bottom: 2em;
 }
 
+a, a:link, a:visited, a:hover, a:active {
+  text-decoration: none;
+}
+
 .footer {
   display: -webkit-box;
   display: -ms-flexbox;
@@ -132,10 +136,6 @@ body {
   padding: 0.5em;
   border: 0.5px solid var(--cc-pale-blue-);
   border-radius: 100px;
-}
-
-.footer a {
-  text-decoration: none;
 }
 
 .footer .fab:hover::before {
