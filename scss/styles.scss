@@ -36,11 +36,11 @@ body {
 }
 
 .header {
-
+  
   &--title {
-  font-size: 1.5rem;
-  font-weight: 300;
-  margin: 0.5em;
+    font-size: 1.5rem;
+    font-weight: 300;
+    margin: 0.5em;
   }
   span {
     font-weight: 700;
@@ -56,25 +56,25 @@ body {
   display: flex;
   flex-direction: column;
   flex-wrap: wrap;
- 
+  
   input {
     border-radius: 50px;
     border: 1px solid var(--cc-gray-);
     margin: 1em;
     padding: 1em;
   }
-
+  
   input.error {
     border: 1px solid var(--cc-light-red-);
   }
-
+  
   button {
     border-radius: 50px;
     border: 1px solid var(--cc-gray-);
     margin: 1em;
     padding: 1em;
   }
-
+  
   &--small {
     font-size: 0.75rem;
     text-align: center;
@@ -97,7 +97,7 @@ body {
   flex-direction: row;
   flex-wrap: wrap;
   justify-content: center;
-
+  
   &__facebook, &__twitter, &__instagram {
     margin: 0.3em 0.3em 0.3em 0.3em;
     height: 10px;
@@ -105,32 +105,33 @@ body {
     padding: 0.5em;
     border: 0.5px solid var(--cc-gray-);
     border-radius: 50px;
+  }
+  
+  &--paragraph {
+    padding: 0em 2em 0em 2em;
+    font-size: 0.5em;
+    margin-bottom: 1em;
+  }
+  
+  &__facebook:hover {
+    filter: invert(0) sepia(0) saturate(1) hue-rotate(0deg) brightness(5);
+    background-color: var(--cc-blue-);
+  }
+  
+  
+  // JS Form Validation
+  small {
+    display: none;
+  }
+  
+  .input-form.error {
+    .email-wrong  {
+      display: block;
     }
-
-    &--paragraph {
-      padding: 0em 2em 0em 2em;
-      font-size: 0.5em;
-      margin-bottom: 1em;
+    
   }
-
-  &__facebook:hover, &__twitter:hover, &__instagram:hover {
-  background-color: var(--cc-blue-);
-  }
-}
-
-
-// JS Form Validation
-small {
-  display: none;
-}
-
-.input-form.error {
-  .email-wrong  {
-    display: block;
-  }
-
-  }
-
+  
   .empty-field.error {
     display: block;
   }
+}
