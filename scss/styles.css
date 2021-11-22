@@ -126,20 +126,29 @@ body {
   -webkit-box-align: center;
       -ms-flex-align: center;
           align-items: center;
-  margin: 0.3em 0.3em 0.3em 0.3em;
-  height: 15px;
   width: 15px;
+  height: 15px;
+  margin: 0.3em 0.3em 0.3em 0.3em;
   padding: 0.5em;
   border: 0.5px solid var(--cc-pale-blue-);
-  border-radius: 50px;
-  background-color: white;
+  border-radius: 100px;
+}
+
+.footer a {
+  text-decoration: none;
 }
 
 .footer .fab:hover::before {
+  display: -webkit-inline-box;
+  display: -ms-inline-flexbox;
+  display: inline-flex;
   color: white;
 }
 
 .footer .fab:hover {
+  display: -webkit-inline-box;
+  display: -ms-inline-flexbox;
+  display: inline-flex;
   background-color: var(--cc-blue-);
   border-color: var(--cc-blue-);
 }
