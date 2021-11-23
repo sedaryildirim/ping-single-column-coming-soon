@@ -8,6 +8,7 @@ form.addEventListener('submit', e => { // runs when submit is clicked/submitted 
     const emailVal = email.value;
     if (email.value.length == 0) {
         empty.classList.add('error');
+        email.classList.add('error');
     } else {
     if (!validateEmail(emailVal)) { //if below function does not have below characters / valid email
         form.classList.add('error'); // then add class .error to .form class list
