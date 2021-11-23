@@ -162,13 +162,14 @@ a, a:link, a:visited, a:hover, a:active {
 }
 
 
-@media (min-width: 375px) {
+@media (min-width: 375px) and (max-width: 700px) {
   .logo {
-    margin-top: 3em;
+    margin-top: 2em;
   }
   
   .footer {
-    margin-top: 6em;
+  margin-top: 3em;
+   max-width: 300px;
   }
   
   #desktop-button {

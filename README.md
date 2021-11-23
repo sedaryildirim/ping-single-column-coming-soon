@@ -31,7 +31,7 @@ This is a solution to the [Ping coming soon page challenge on Frontend Mentor](h
 
 ### Screenshot
 
-![](./images/screenshot.jpg)
+![](./images/screenshot.png)
 
 ### Links
 
@@ -50,10 +50,19 @@ This is a solution to the [Ping coming soon page challenge on Frontend Mentor](h
 - JS
 - BEM naming structure
 - SCSS
+- Fontawesome CDN
 
 ### What I learned
 
+Had major issues with changing SVG icon colors / hover states - managed to get it working by
+pulling directly from the CDN and using :before ::after states.
+
+Slightly better understanding of JS / problem solving.
+
 ### Continued development
+
+add more responsive sizes / gain better knowledge of breakpoints and try to intergrate into 
+scss mixins.
 
 ### Useful resources
 
@@ -61,6 +70,8 @@ This is a solution to the [Ping coming soon page challenge on Frontend Mentor](h
 - [Net Ninja](https://www.youtube.com/thenetninja) - HTML & CSS Tutorials
 - [Kevin Powell](https://www.youtube.com/kevinpowell) - HTML & CSS Tutorials
 - [Florin Pop](https://www.youtube.com/florinpop) - JS Form Validation
+- [Josh Comeau](https://www.joshwcomeau.com/) - Drop Shadow Generator
+- [Font Awesome](https://fontawesome.com/) - CDN Usage & Social Icons
 
 ## Author
 
@@ -73,4 +84,6 @@ This is a solution to the [Ping coming soon page challenge on Frontend Mentor](h
 - [Frontendmentor.io](https://www.frontendmentor.io/)
 - [Net Ninja](https://www.youtube.com/thenetninja)
 - [Kevin Powell](https://www.youtube.com/kevinpowell)
-- [Florin Pop](https://www.youtube.com/florinpop) - JS Form Validation
+- [Florin Pop](https://www.youtube.com/florinpop)
+- [Josh Comeau](https://www.joshwcomeau.com/)
+- [Font Awesome](https://fontawesome.com/)
