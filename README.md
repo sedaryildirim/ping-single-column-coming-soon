@@ -31,7 +31,8 @@ This is a solution to the [Ping coming soon page challenge on Frontend Mentor](h
 
 ### Screenshot
 
-![](./images/screenshot.png)
+![](./images/mobile_ss.jpg)
+![](./images/desktop_ss.jpg)
 
 ### Links
 
